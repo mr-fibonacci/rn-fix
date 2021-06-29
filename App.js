@@ -6,6 +6,7 @@ import { StyleSheet, Text, View } from "react-native";
 import PostsScreen from "./screens/PostsScreen";
 import HomeScreen from "./screens/HomeScreen";
 import "webgltexture-loader-expo-camera";
+import PostScreen from "./screens/PostScreen";
 
 const Tab = createBottomTabNavigator();
 
@@ -17,6 +18,7 @@ export default function App() {
           {() => <HomeScreen message="yaaaay" />}
         </Tab.Screen>
         <Tab.Screen name="Posts" component={PostsScreen} />
+        <Tab.Screen name="Post" component={PostScreen} />
       </Tab.Navigator>
     </NavigationContainer>
   );

@@ -3536,6 +3536,11 @@ gl-react-expo@^5.0.0:
     invariant "^2.2.4"
     webgltexture-loader-expo "1.0.0"
 
+gl-react-image@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/gl-react-image/-/gl-react-image-3.2.0.tgz#bf4024a933a322b83d526c8c3fc5194f599d0730"
+  integrity sha512-ntCE2NwQDPugZn1KwlFPLUi/0aMDRWl0OOrllixuRD1FqWhVHggHDfGteUnQouN2G6V8vpL4qRtE2Kd+PcCOsg==
+
 gl-react@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/gl-react/-/gl-react-5.0.0.tgz#33ce47942c068a137250cbdceb4aae31f1ac81ec"
